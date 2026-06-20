@@ -1,0 +1,32 @@
+T ZEWDU - Full Stack Developer Resume
+
+Contact Information:
+Email: goodpersonh208686@gmail.com
+LinkedIn: https://www.linkedin.com/in/good-man-15b4252a8/
+GitHub: https://github.com/good12834
+Portfolio: https://tzewdu.goodtess.com
+
+Professional Summary:
+Dedicated Full Stack Developer with hands-on experience in modern web development technologies.
+
+Education:
+Full Stack Web Development Bootcamp - Evangadi Institute | March 2025 - September 2025
+
+Technical Skills:
+Frontend: React, JavaScript, HTML5, CSS3, Bootstrap
+Backend: Node.js, Express, MySQL
+Tools: Git, VS Code, Netlify
+
+Projects:
+- Netflix Clone: React, Node.js, TMDB API
+- Amazon Clone: React, Node.js, Stripe, MongoDB
+- Evangadi Forum: React, MySQL, JWT
+- TimeTrack Pro: React, MongoDB
+- Portfolio Website: HTML, CSS, Bootstrap
+- Gym Website: React, Bootstrap
+- Restaurant Website: React, Bootstrap
+
+Continuous Learning:
+AWS Cloud Services, Advanced React, Database Optimization, DevOps
+
+Languages: English (Professional)
