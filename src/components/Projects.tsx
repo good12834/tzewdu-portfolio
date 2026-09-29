@@ -6,6 +6,7 @@ import garage from '../assets/garage.png'
 import burgerhub from '../assets/burgerhub.png'
 import musicapp from '../assets/musicapp.png'
 import movie from '../assets/movie.png'
+import ride from '../assets/ride.png'
 interface Project {
   id: number
   title: string
@@ -202,10 +203,25 @@ const projects: Project[] = [
 'python-dotenv - Environment variable management',
 'google-genai - Gemini AI API client'],
     devOpsAndTools: ['GitHub Actions'],
-  }
-
-]
-
+    },
+{
+      id: 14,
+    title: 'RideGo — Full-Stack Ride Booking Platform',
+    category: 'Community Platform',
+    image: ride,
+    github: 'https://github.com/good12834/RideGo-Full-Stack-Ride-BookingPlatform.git',
+    demo: 'https://ridego-blush.vercel.app/',
+    status: 'Live',
+    featured: true,
+    description: 'RideGo AI Mobility is a full-stack ride-hailing platform that connects passengers, drivers, and admins in a single real-time ecosystem. It features an AI-powered dispatch engine, live GPS ride tracking via WebSockets, Stripe-powered payments, fare estimation, promo codes, ratings, wallet top-ups, and an in-app AI copilot.',
+    tech: ['React 18','vit 5',
+'Tailwind CSS,React Router 6',
+'Leaflet (React Leaflet), Framer Motion, Socket.io-client, Axios, Lucide React, Stripe.js',
+'Node.js, Express 4, Socket.io, Mongoose (ODm)','Stripe (Payment Intents, webhooks, wallet top-ups), JWT (jsonwebtoken) + bcryptjs password hashing, Cloudinary (optional, driver vehicle photos), Multer',
+'google-genai - Gemini AI API client'],
+ devOpsAndTools: ['GitHub Actions']
+}
+  ]
 const Projects: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState<string>('All')
   const [visibleCards, setVisibleCards] = useState<Set<number>>(new Set())
