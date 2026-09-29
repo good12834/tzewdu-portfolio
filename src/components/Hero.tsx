@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
       {/* Ghost name watermark */}
       <div
         aria-hidden="true"
-        className="absolute left-[-2px] top-1/2 -translate-y-1/2 -rotate-90 origin-center font-bold text-[80px] tracking-[0.18em] text-[#C9933A] opacity-[0.04] whitespace-nowrap pointer-events-none select-none z-0"
+        className="absolute left-[-2px] top-1/2 -translate-y-1/2 -rotate-90 origin-center font-bold text-[80px] tracking-[0.18em] text-black opacity-[0.06] whitespace-nowrap pointer-events-none select-none z-0"
         style={{ fontFamily: 'inherit' }}
       >
         T ZEWDU T ZEWDU T ZEWDU

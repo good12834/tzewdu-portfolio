@@ -5,6 +5,7 @@ import { Annoyed, Play } from 'lucide-react'
 import garage from '../assets/garage.png'
 import burgerhub from '../assets/burgerhub.png'
 import musicapp from '../assets/musicapp.png'
+import movie from '../assets/movie.png'
 interface Project {
   id: number
   title: string
@@ -29,7 +30,7 @@ const projects: Project[] = [
     category: 'Streaming Platform',
     image: 'https://github.com/good12834/my-portfolio/blob/main/images/23e65075-b685-4b1b-8984-10bb30dd67f7.png?raw=true',
     github: 'https://github.com/good12834/net-clone2025',
-    demo: 'https://net-clone-tzewdu-b87087.netlify.app/',
+    demo: 'https://good12834.github.io/net-clone2025/',
     views: '2.5K',
     status: 'Live',
     featured: true,
@@ -43,7 +44,7 @@ const projects: Project[] = [
     category: 'E-Commerce',
     image: 'https://github.com/good12834/my-portfolio/blob/main/images/d10346fa-0a01-4ef6-bfd7-75144304ab6f.png?raw=true',
     github: 'https://github.com/good12834/Amazon-clone-frontend-deploy',
-    demo: 'https://amazon-clone-tzewdu-581109.netlify.app/',
+    demo: 'https://amazon-clone-frontend-deploy-inky.vercel.app/',
     users: '1.8K',
     status: 'Live',
     featured: false,
@@ -70,7 +71,7 @@ const projects: Project[] = [
     category: 'Productivity Tool',
     image: 'https://github.com/good12834/my-portfolio/blob/main/images/timetrickr.png?raw=true',
     github: 'https://github.com/good12834/Worker-Time-Tracking',
-    demo: 'https://worker-time-tracking-by-tzewdu-baa89b.netlify.app/',
+    demo: 'https://worker-time-tracking-psi.vercel.app/',
     status: 'Live',
     featured: true,
     description: 'Enterprise-grade time tracking with advanced analytics, team management, and reporting features.',
@@ -171,6 +172,37 @@ const projects: Project[] = [
     tech: ['React 19 ','Tailwind CSS 4', 'Web Audio API', 'Audius API', 'Vite 8', 'Lucide React'],
     devOpsAndTools: ['GitHub Actions'],
   },
+{
+      id: 12,
+    title: 'CineVerse - Movie App',
+    category: 'Streaming Platform',
+    image: movie,
+    github: 'https://github.com/good12834/movie-app.git',
+    demo: 'https://good12834.github.io/movie-app/',
+    status: 'Live',
+    featured: true,
+    description: 'A full-stack entertainment platform built with React + Vite on the frontend and Express + MySQL on the backend. Browse, search, and manage your movie watchlist with a premium React user experience.',
+    tech: ['React 19 ','Tailwind CSS 3', 'Express.js 2', 'Node.js 18+','MySQL 5', 'TMDB API', 'Vite 8', 'Lucide React', 'Bootstrap 5 '],
+    devOpsAndTools: ['GitHub Actions'],
+  },
+
+{
+      id: 13,
+    title: 'python-amovie-recomendation',
+    category: 'Streaming Platform',
+    image: movie,
+    github: 'https://github.com/good12834/python-amovie-recomendation.git',
+    demo: 'https://frontend-ten-delta-mthu640p6m.vercel.app',
+    status: 'Live',
+    featured: true,
+    description: 'A smart movie recommendation system with both CLI and web interfaces. MovieBuddy helps you discover movies based on your preferences, with AI-powered chat functionality for natural language interactions.',
+    tech: ['React 19 ','vite - Build tool','tmdb-api - Movie database API',
+'lucide-react - Icon library','flask - Web framework',
+'flask-cors - Cross-origin resource sharing',
+'python-dotenv - Environment variable management',
+'google-genai - Gemini AI API client'],
+    devOpsAndTools: ['GitHub Actions'],
+  }
 
 ]
 
